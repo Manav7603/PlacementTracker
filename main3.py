@@ -133,8 +133,8 @@ try:
     # Login
     driver.get("https://nirmauni.pod.ai/d/sXfPHC/opportunities/?eligibilityType=1&eligibilityType=2")
     WebDriverWait(driver, 20).until(EC.presence_of_element_located((By.NAME, "username")))
-    driver.find_element(By.NAME, "username").send_keys("21bce143@nirmauni.ac.in")
-    driver.find_element(By.NAME, "password").send_keys("Manav@7603")
+    driver.find_element(By.NAME, "username").send_keys("write username")
+    driver.find_element(By.NAME, "password").send_keys("write your pass")
     driver.find_element(
         By.CSS_SELECTOR,
         ".MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary"
